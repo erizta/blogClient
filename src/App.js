@@ -10,13 +10,13 @@ function App() {
       <div className="navbar">
         <div className="links">
           <a href="/">Main Page</a>
-          <a href="/createpost">Create Page</a>
+          <a href="/createpost">Create Post</a>
         </div>
       </div>
 
       <Router>
         <Route path="/" exact render={(props) => <MainPage />} />
-        <Route path="/createpost" render={(props) => <CreatePost />} />
+        <Route path="/createpost" render={(props) => <CreatePost  />} />
         {/* <Route path="/" /> */}
       </Router>
 
