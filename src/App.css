@@ -29,7 +29,19 @@ body {
   text-decoration: none;
 }
 
-.links a:hover{
+.links a:hover {
   cursor: pointer;
   font-weight: bold;
+}
+
+.CreatePost {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.uploadPost {
+  display: flex;
+  flex-direction: column;
 }
